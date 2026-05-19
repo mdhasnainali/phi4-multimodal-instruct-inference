@@ -76,7 +76,6 @@ generate_ids = model.generate(**inputs, max_new_tokens=100, generation_config=ge
 response = processor.batch_decode(generate_ids, skip_special_tokens=True)[0]
 print(response)
 ```
-```
 
 ## Results & Findings
 
