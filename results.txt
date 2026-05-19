@@ -1,0 +1,21 @@
+OPENVINO
+===================================================
+--- Running inference (CPU) ---
+>>> Prompt
+<|user|><|image_1|>What is shown in this image?<|end|><|assistant|>
+Generating response...
+You are not running the flash-attention implementation, expect numerical differences.
+>>> Response
+A stop sign in front of a building with Chinese writing on it.
+
+--- Inference Time: 1428.02 seconds ---
+Tokens generated: 15
+Tokens per second: 0.01
+=====================================================
+
+Full Model + 4 bit loading
+=====================================================
+Cuda Out of Memory
+
+
+
